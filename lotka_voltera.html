@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .header,
+        .footer {
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 20px;
+            font-size: 1.5em;
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        .image-column img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .text-column {
+            text-align: left;
+            padding: 20px;
+            vertical-align: top;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <!-- Row 1: Header -->
+        <tr style="background-color: rgba(209, 195, 195, 0.5);">
+            <td colspan="2">
+                <div style="display: flex; justify-content: center; gap: 20px; margin-top: 20px;">
+                    <a href="index.html" style="color: grey; text-decoration: none; padding: 10px;">Home</a>
+                    <a href="overview.html" style="color: grey; text-decoration: none; padding: 10px;">Overview</a>
+                    <a href="population_time.html" style="color: grey; text-decoration: none; padding: 10px;">Population
+                        vs Time</a>
+                    <a href="temparature_population.html"
+                        style="color: grey; text-decoration: none; padding: 10px;">Temperature vs Population</a>
+                    <a href="lotka_voltera.html"
+                        style="color: rgb(110, 10, 10); text-decoration: none; padding: 10px;">Lotka Volterra</a>
+                    <a href="source.html" style="color: grey; text-decoration: none; padding: 10px;">Sources</a>
+                    <a href="about_us.html" style="color: grey; text-decoration: none; padding: 10px;">About Us</a>
+                </div>
+            </td>
+        </tr>
+
+        <!-- Row 2: Two Columns -->
+        <tr>
+            <!-- Column 1: Image -->
+            <td class="image-column" style="width: 50%;">
+                <img src="./images/Wolf_Moose_Population_Time.jpeg" alt="Placeholder Image">
+            </td>
+            <!-- Column 2: Text -->
+            <td class="text-column" style="width: 50%;">
+                <p style="font-weight: bold;">
+                    Population Trend
+                </p>
+                <p style="color: grey;">
+                    The graph shows us :
+                </p>
+                <ol style="color: grey;">
+                    <li>The moose population increases first, providing more food for wolves. When the wolf population
+                        (predator) grows due to abundant prey, they begin to overhunt moose, causing the moose
+                        population to decline.</li>
+                    <li>The wolf population doesn’t immediately drop when the moose population declines. Instead, it
+                        continues to grow for a short period due to momentum in reproduction. Eventually, the lack of
+                        prey causes the wolf population to decline.</li>
+                    <li>When the wolf population falls, moose face less predation pressure and start to recover. We
+                        expect that cycle to repeat. The model suggests a stable predator-prey dynamic with both
+                        populations cycling without leading to the extinction of either species (within the given time
+                        frame).</li>
+                    <li>The dynamic can be influenced by factors such as genetic health, disease, and climate change,
+                        which can alter cyclic amplitude and frequency.</li>
+                </ol>
+            </td>
+        </tr>
+        <tr>
+            <!-- Left Column: Image -->
+            <td style="width: 50%; text-align: center; vertical-align: middle; padding: 10px;">
+                <img src="./images/Interactive_VL_Model.jpg" alt="Description"
+                    style="max-width: 100%; height: auto; border-radius: 10px;">
+            </td>
+            <!-- Right Column: Centered Text -->
+            <td style="width: 50%; text-align: center; vertical-align: middle; padding: 10px;">
+                <p>
+                    Given that we some ocillations in the two populations we experimented with the lotka-volterra model
+                    with different parameters.
+                </p>
+            </td>
+        </tr>
+        <!-- Row 3: Footer -->
+        <tr>
+            <td class=.footer colspan="2">
+                <a href="../code/FinalProject.html" style="color: grey; text-decoration: none; padding: 10px;">Click
+                    here to go to Source Code</a>
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>

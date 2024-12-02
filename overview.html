@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .header,
+        .footer {
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 20px;
+            font-size: 1.5em;
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        .image-column img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .text-column {
+            text-align: left;
+            padding: 20px;
+            vertical-align: top;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <!-- Row 1: Header -->
+        <tr style="background-color: rgba(209, 195, 195, 0.5);">
+            <td colspan="2">
+                <div style="display: flex; justify-content: center; gap: 20px; margin-top: 20px;">
+                    <a href="index.html" style="color: grey; text-decoration: none; padding: 10px;">Home</a>
+                    <a href="overview.html"
+                        style="color: rgb(97, 9, 9); text-decoration: none; padding: 10px;">Overview</a>
+                    <a href="population_time.html" style="color: grey; text-decoration: none; padding: 10px;">Population
+                        vs Time</a>
+                    <a href="temparature_population.html"
+                        style="color: grey; text-decoration: none; padding: 10px;">Temperature vs Population</a>
+                    <a href="lotka_voltera.html" style="color: grey; text-decoration: none; padding: 10px;">Lotka
+                        Volterra</a>
+                    <a href="source.html" style="color: grey; text-decoration: none; padding: 10px;">Sources</a>
+                    <a href="about_us.html" style="color: grey; text-decoration: none; padding: 10px;">About Us</a>
+                </div>
+            </td>
+        </tr>
+
+        <!-- Row 2: Two Columns -->
+        <tr>
+            <!-- Column 1: Image -->
+            <td class="image-column" style="width: 50%;">
+                <img src="./images/overview_image2.jpeg" alt="Placeholder Image">
+            </td>
+            <!-- Column 2: Text -->
+            <td class="text-column" style="width: 50%;">
+                <h2>Background</h2>
+                <p style="color: purple;">
+                    Herbivores play a crucial role in maintaining the ecosystem balance affecting vegetation. Moose play
+                    a crucial role as a keystone species in boreal forests, significantly enhancing biodiversity and
+                    maintaining ecosystem health. It’s vital to understand the factors influencing moose populations,
+                    especially given the challenges posed by climate change. Addressing these dynamics is essential for
+                    effective conservation strategies & ecosystem management.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <!-- Column 1: Image -->
+            <td class="image-column" style="width: 50%;">
+                <img src="./images/wolfincage.jpg" alt="Placeholder Image">
+            </td>
+            <!-- Column 2: Text -->
+            <td class="text-column" style="width: 50%;">
+                <p style="color: grey;">
+                    Climate change significantly threatens wildlife by altering habit availability, food resources, and
+                    species interaction. Studies highlight how rising temperatures and changing precipitation patterns
+                    affect the survival and the reproductive success of larger mammals [1]. This emphasizes the need for
+                    conservation efforts to ensure resilience of the species in a changing environment. Research
+                    indicates that with increased winter severity, exacerbated by climate change, this can adversely
+                    affect the health and reproductive rate of moose. A study done in interior Alaska showed harsh
+                    winter conditions contributed to a high mortality rate amongst calves and highlighted a direct
+                    correlation between climate variables and moose population dynamics [2].
+                </p>
+                <p style="color: purple;">
+                    Despite these findings, there is still a gap in integrated research exploring combined effects of
+                    climate change on moose and their predator, the wolf. Most literature focuses on the species
+                    separately limiting our understanding of the dynamic interactions with a changing environment. This
+                    calls for the need for comprehensive research studying the interconnectedness of the species in
+                    their ecosystems.
+                </p>
+
+            </td>
+        </tr>
+
+    </table>
+
+</body>
+
+</html>
