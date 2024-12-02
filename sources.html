@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .header, .footer {
+      background-color: #f4f4f4;
+      text-align: center;
+      padding: 20px;
+      font-size: 1.5em;
+      font-weight: bold;
+      font-style: italic;
+    }
+
+    .image-column img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .text-column {
+      text-align: left;
+      padding: 20px;
+      vertical-align: top;
+    }
+  </style>
+</head>
+<body>
+
+<table>
+  <!-- Row 1: Header -->
+  <tr style="background-color: rgba(209, 195, 195, 0.5);">
+    <td colspan="2" >
+        <div style="display: flex; justify-content: center; gap: 20px; margin-top: 20px;">
+            <a href="index.html" style="color: grey; text-decoration: none; padding: 10px;">Home</a>
+            <a href="overview.html" style="color: grey; text-decoration: none; padding: 10px;">Overview</a>
+            <a href="population_time.html" style="color: grey; text-decoration: none; padding: 10px;">Population vs Time</a>
+            <a href="temparature_population.html" style="color: grey; text-decoration: none; padding: 10px;">Temperature vs Population</a>
+            <a href="lotka_voltera.html" style="color: grey; text-decoration: none; padding: 10px;">Lotka Volterra</a>
+            <a href="source.html" style="color: rgb(97, 9, 9); text-decoration: none; padding: 10px;">Sources</a>
+            <a href="about_us.html" style="color: grey; text-decoration: none; padding: 10px;">About Us</a>
+          </div>
+    </td>
+  </tr>
+
+  <!-- Row 2: Two Columns -->
+  <tr>
+    <!-- Column 1: Image -->
+    <td class="image-column" style="width: 50%;">
+      <img src="./images/references.jpeg" alt="Placeholder Image">
+    </td>
+    <td><h2> Where we got our data </h2></td>
+      
+  </tr>
+
+  <!-- Row 3: Footer -->
+  <tr>
+    <td><h2> Academic References </h2></td>
+    <td class="image-column" style="width: 50%;">
+        <img src="./images/refrences2.jpeg" alt="Placeholder Image">
+      </td>
+  </tr>
+</table>
+
+</body>
+</html>
